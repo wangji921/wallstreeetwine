@@ -17,7 +17,7 @@ $(document).ready(
             var i;
             for(i = 0; i < arr.length; i++) {
                 if (arr[i].popularity == "high") {
-                    out += '<div class="col-sm-2"><div class="thumbnail"><a href="../index.html"><img src="' + arr[i].img + '" alt="' + arr[i].name + '"><p>' + arr[i].name + '</p></a></div></div>';
+                    out += '<div class="col-sm-2"><div class="thumbnail"><a href="product.html"><img src="' + arr[i].img + '" alt="' + arr[i].name + '"><p>' + arr[i].name + '</p></a></div></div>';
                 }
             }
             document.getElementById("featureditemslist").innerHTML = out;
@@ -43,7 +43,7 @@ $(document).ready(
             var i;
             for(i = 0; i < arr.length; i++) {
                 if (arr[i].onsale == "yes") {
-                    out += '<div class="col-sm-2"><div class="thumbnail"><a href="../index.html"><img src="' + arr[i].img + '" alt="' + arr[i].name + '"><p>' + arr[i].name + '</p></a></div></div>';
+                    out += '<div class="col-sm-2"><div class="thumbnail"><a href="product.html"><img src="' + arr[i].img + '" alt="' + arr[i].name + '"><p>' + arr[i].name + '</p></a></div></div>';
                 }
             }
             document.getElementById("dealofthedaylist").innerHTML = out;
